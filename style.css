@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+body main .one {
+    width: 1fr;
+    height: 100vh;
+    background-color: blue;
+    background-image: url(https://miro.medium.com/v2/resize:fit:960/1*JPgnhoJBXyprgbmRQdihYA.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
